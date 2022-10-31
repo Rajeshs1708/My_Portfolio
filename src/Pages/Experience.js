@@ -15,7 +15,7 @@ function Experience() {
           icon={<School />}
         >
           <h4 className='vertical-timeline-element-title'>Britannia High School,</h4>
-          <p style={{ color: "gray" }}>Padi — <span style={{ color: "#3e497a" }}>91.41%</span></p>
+          <p style={{ color: "gray" }}>Padi — <span style={{ color: "#3e497a" }}>89.20%</span></p>
         </VerticalTimelineElement>
 
 

@@ -11,7 +11,7 @@ function Home() {
         <div className='prompt'>
           <p>A Full Stack Web Developer with a passion for learning and creating.</p>
           <div className='svgIcon'>
-          <a href="/Resume/Rajesh_Resume.pdf" download="resume" className="resume btn btn-primary text-center">Download CV  <DownloadIcon /></a>
+          <a href="/Resume/updatedResume.pdf" download="resume" className="resume btn btn-primary text-center">Download CV  <DownloadIcon /></a>
           </div>
         </div>
       </div>
