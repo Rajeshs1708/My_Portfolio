@@ -28,14 +28,12 @@ function Contact() {
                             <div className="col-md-6 pb-2">
                                 <div className="md-form mb-0">
                                     <input type="text" id="name" name="name" className="form-control" placeholder='Your name' />
-                                    {/* <label for="name" className=""></label> */}
                                 </div>
                             </div>
 
                             <div className="col-md-6">
                                 <div className="md-form mb-0">
                                     <input type="text" id="email" name="email" className="form-control" placeholder='Your email' />
-                                    {/* <label for="email" className="">Your email</label> */}
                                 </div>
                             </div>
 
@@ -54,7 +52,6 @@ function Contact() {
                             <div className="col-md-12">
                                 <div className="md-form">
                                     <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea" placeholder='Your message'></textarea>
-                                    {/* <label for="message">Your message</label> */}
                                 </div>
                             </div>
                         </div>
@@ -64,7 +61,7 @@ function Contact() {
 
                     <div className=" row" >
                         <div className="col-md-12  text-center">
-                            <a className="btn btn-primary" style={{width:"350px"}}>Send</a>
+                            <a className="btn btn-primary" href='#herf' style={{width:"350px"}}>Send</a>
                         </div>
                     </div>
                 </div>
