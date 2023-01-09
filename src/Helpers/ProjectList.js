@@ -1,5 +1,5 @@
-import pro1 from '../Assets/pro1.jpeg';
-import pro2 from '../Assets/whatsapp.jpg';
+import pro1 from '../Assets/urlShortener.png';
+import pro2 from '../Assets/loginSystem.png';
 import pro3 from '../Assets/youtube.png';
 import pro4 from '../Assets/dashboard.png';
 import pro5 from '../Assets/ice&fire.png';
@@ -9,20 +9,20 @@ import pro7 from '../Assets/calculator.png';
 
 const ProjectList = [
     {
-        name: "CPM",
-        alt: "CPM",
+        name: "URL Shortener(MERN)",
+        alt: "URL Shortener",
         image: pro1,
         skills: "React, Node JS, Express JS, MongoDB ",
-        gitLink: "",
-        netlifyLink: ""
+        gitLink: "https://github.com/Rajeshs1708/URL-Shortener-app-frontend",
+        netlifyLink: "https://url-shortener-app-finaltask.netlify.app/"
     },
     {
-        name: "Whatsapp Clone",
-        alt: "Whatsapp",
+        name: "Login System(MERN)",
+        alt: "Login System",
         image: pro2,
-        skills: "React,Material UI, Firebase",
-        gitLink: "https://github.com/Rajeshs1708/Whatsapp-clone",
-        netlifyLink: ""
+        skills: "React, Node JS, Express JS, MongoDB ",
+        gitLink: "https://github.com/Rajeshs1708/Password_Reset_Flow-frontend",
+        netlifyLink: "https://password-reset-flow-app.netlify.app/"
     },
     {
         name: "YouTube",
