@@ -13,7 +13,8 @@ const ProjectList = [
         alt: "URL Shortener",
         image: pro1,
         skills: "React, Node JS, Express JS, MongoDB ",
-        gitLink: "https://github.com/Rajeshs1708/URL-Shortener-app-frontend",
+        gitLink1: "https://github.com/Rajeshs1708/URL-Shortener-app-frontend",
+        gitLink2: "https://github.com/Rajeshs1708/URL-Shortener-app-backend",
         netlifyLink: "https://url-shortener-app-finaltask.netlify.app/"
     },
     {
@@ -21,7 +22,8 @@ const ProjectList = [
         alt: "Login System",
         image: pro2,
         skills: "React, Node JS, Express JS, MongoDB ",
-        gitLink: "https://github.com/Rajeshs1708/Password_Reset_Flow-frontend",
+        gitLink1: "https://github.com/Rajeshs1708/Password_Reset_Flow-frontend",
+        gitLink2: "https://github.com/Rajeshs1708/Password_Reset_Flow-backend",
         netlifyLink: "https://password-reset-flow-app.netlify.app/"
     },
     {
@@ -29,7 +31,7 @@ const ProjectList = [
         alt: "YouTube",
         image: pro3,
         skills: "React,Material UI",
-        gitLink: "https://github.com/Rajeshs1708/YouTube-Clone",
+        gitLink1: "https://github.com/Rajeshs1708/YouTube-Clone",
         netlifyLink: "https://youtube-clone-007.netlify.app/"
     },
     {
@@ -37,7 +39,7 @@ const ProjectList = [
         alt: "Admin Dashboard",
         image: pro4,
         skills: "React, Node JS, Express JS, MongoDB ",
-        gitLink: "https://github.com/Rajeshs1708/SbAdmin2-React-Task-3",
+        gitLink1: "https://github.com/Rajeshs1708/SbAdmin2-React-Task-3",
         netlifyLink: " https://wonderful-rugelach-95ec36.netlify.app/"
     },
 
@@ -46,7 +48,7 @@ const ProjectList = [
         alt: "Ice and Fire",
         image: pro5,
         skills: "HTML, CSS, JavaScript, Bootstrap",
-        gitLink: "https://github.com/Rajeshs1708/Day-20th-Task-13-Ice-and-Fire-API",
+        gitLink1: "https://github.com/Rajeshs1708/Day-20th-Task-13-Ice-and-Fire-API",
         netlifyLink: "https://relaxed-kangaroo-35a38d.netlify.app/"
     },
     {
@@ -54,7 +56,7 @@ const ProjectList = [
         alt: "Form",
         image: pro6,
         skills: "HTML, CSS, JavaScript, Bootstrap",
-        gitLink: "https://github.com/Rajeshs1708/Day-16-Task-11-HTML-Form-Table",
+        gitLink1: "https://github.com/Rajeshs1708/Day-16-Task-11-HTML-Form-Table",
         netlifyLink: " https://rainbow-medovik-b02910.netlify.app/"
     },
     {
@@ -62,7 +64,7 @@ const ProjectList = [
         alt: "Calculator",
         image: pro7,
         skills: "HTML, CSS, JavaScript, Bootstrap",
-        gitLink: "https://github.com/Rajeshs1708/Day-16-Task-11-Calculator",
+        gitLink1: "https://github.com/Rajeshs1708/Day-16-Task-11-Calculator",
         netlifyLink: " https://papaya-horse-8c84c5.netlify.app/"
     },
 

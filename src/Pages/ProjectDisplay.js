@@ -16,7 +16,8 @@ function ProjectDisplay() {
      <img src={project.image} alt={project.alt}/>
     <p><b>Skills : </b>{project.skills}</p>
     <div className='projectLinks'>
-    <a href={project.gitLink} target='_blank' rel="noreferrer"><GitHub /></a>
+    <a href={project.gitLink1} target='_blank' rel="noreferrer"><GitHub /></a>
+    <a href={project.gitLink2} target='_blank' rel="noreferrer"><GitHub /></a>
      <a href={project.netlifyLink} target='_blank' rel="noreferrer"><img src={netlify} style={{width:"2.5rem"}} alt="Netlify" /></a>
      </div>
     </div>
