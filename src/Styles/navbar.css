@@ -1,18 +1,17 @@
- .navbar {
-     background-color: #21325e; 
-     color: white; 
- }
+.navbar {
+  background-color: #21325e;
+  color: white;
+}
 
- .navbar a {
-     color: white;
- }
+.navbar a {
+  color: white;
+}
 
- #navbarNavAltMarkup {
-     justify-content: center;
- }
+#navbarNavAltMarkup {
+  justify-content: center;
+}
 
- #navbarNavAltMarkup a {
-     padding-left: 2rem;
-     font-size: 1.2rem;
- }
- 
+#navbarNavAltMarkup a {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}

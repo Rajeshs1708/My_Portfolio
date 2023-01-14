@@ -1,6 +1,6 @@
-import pro1 from '../Assets/urlShortener.png';
-import pro2 from '../Assets/loginSystem.png';
-import pro3 from '../Assets/youtube.png';
+import urlShortener from '../Assets/urlShortener.png';
+import loginSystem from '../Assets/loginSystem.png';
+import youtube from '../Assets/youtube.png';
 import pro4 from '../Assets/dashboard.png';
 import pro5 from '../Assets/ice&fire.png';
 import pro6 from '../Assets/htmlForm.png';
@@ -11,7 +11,7 @@ const ProjectList = [
     {
         name: "URL Shortener(MERN)",
         alt: "URL Shortener",
-        image: pro1,
+        image: urlShortener,
         skills: "React, Node JS, Express JS, MongoDB ",
         gitLink1: "https://github.com/Rajeshs1708/URL-Shortener-app-frontend",
         gitLink2: "https://github.com/Rajeshs1708/URL-Shortener-app-backend",
@@ -20,7 +20,7 @@ const ProjectList = [
     {
         name: "Login System(MERN)",
         alt: "Login System",
-        image: pro2,
+        image: loginSystem,
         skills: "React, Node JS, Express JS, MongoDB ",
         gitLink1: "https://github.com/Rajeshs1708/Password_Reset_Flow-frontend",
         gitLink2: "https://github.com/Rajeshs1708/Password_Reset_Flow-backend",
@@ -29,7 +29,7 @@ const ProjectList = [
     {
         name: "YouTube",
         alt: "YouTube",
-        image: pro3,
+        image: youtube,
         skills: "React,Material UI",
         gitLink1: "https://github.com/Rajeshs1708/YouTube-Clone",
         netlifyLink: "https://youtube-clone-007.netlify.app/"

@@ -13,7 +13,7 @@ function ProjectDisplay() {
 
     <div className='project'>
      <h1>{project.name}</h1>
-     <img src={project.image} alt={project.alt}/>
+     <img className='img-fluid' src={project.image} alt={project.alt}/>
     <p><b>Skills : </b>{project.skills}</p>
     <div className='projectLinks'>
     <a href={project.gitLink1} target='_blank' rel="noreferrer"><GitHub /></a>
