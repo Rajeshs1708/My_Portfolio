@@ -1,8 +1,7 @@
-import React from 'react'
-import '../Styles/Contact.css'
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
-import HomeIcon from '@mui/icons-material/Home'
-import EmailIcon from '@mui/icons-material/Email'
+import React from 'react';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import HomeIcon from '@mui/icons-material/Home';
+import EmailIcon from '@mui/icons-material/Email';
 
 function Contact () {
   return (
@@ -55,11 +54,11 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
                   <input
-                    type='text'
-                    id='subject'
-                    name='subject'
+                    type='number'
+                    id='number'
+                    name='number'
                     className='form-control'
-                    placeholder='Subject'
+                    placeholder='Phone Number'
                   />
                 </div>
               </div>

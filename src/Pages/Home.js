@@ -7,11 +7,7 @@ function Home () {
     <div className='home'>
       <div className='about row'>
         <div className='aboutLeft col-md-4'>
-          <img
-            className='img-fluid'
-            src='/Images/Rajesh.jpg'
-            alt='Rajesh'
-          />
+          <img className='img-fluid' src='/Images/Rajesh.jpg' alt='Rajesh' />
         </div>
         <div className='aboutRight col-md-8'>
           <h2>Hi, My Name is Rajesh</h2>
@@ -63,7 +59,7 @@ function Home () {
                 <h5>Bootstrap</h5>
               </div>
               <div>
-                <progress max='100' value='60'></progress>
+                <progress max='100' value='80'></progress>
               </div>
             </div>
 
@@ -104,7 +100,7 @@ function Home () {
                 <h5>Node JS</h5>
               </div>
               <div>
-                <progress max='100' value='80'>
+                <progress max='100' value='70'>
                   80%
                 </progress>
               </div>
@@ -118,7 +114,7 @@ function Home () {
                 <h5>Express JS</h5>
               </div>
               <div>
-                <progress max='100' value='60'></progress>
+                <progress max='100' value='65'></progress>
               </div>
             </div>
 
@@ -130,7 +126,7 @@ function Home () {
                 <h5>MongoDB</h5>
               </div>
               <div>
-                <progress max='100' value='80'></progress>
+                <progress max='100' value='60'></progress>
               </div>
             </div>
 
@@ -142,7 +138,7 @@ function Home () {
                 <h5>My SQL</h5>
               </div>
               <div>
-                <progress max='100' value='80'></progress>
+                <progress max='100' value='60'></progress>
               </div>
             </div>
           </div>
@@ -159,7 +155,7 @@ function Home () {
                 <h5>CSS 3</h5>
               </div>
               <div>
-                <progress max='100' value='80'></progress>
+                <progress max='100' value='70'></progress>
               </div>
             </div>
           </div>
