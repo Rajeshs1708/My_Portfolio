@@ -152,7 +152,7 @@ function Home () {
                 <img alt='' src='/Images/js.png' />
               </div>
               <div>
-                <h5>CSS 3</h5>
+                <h5>Javascript</h5>
               </div>
               <div>
                 <progress max='100' value='70'></progress>
