@@ -3,6 +3,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import ProjectList from '../Helpers/ProjectList'
 import netlify from '../Assets/netlify.jpg'
+import versel from '../Assets/versel.png'
 import '../Styles/ProjectDisplay.css'
 
 function ProjectDisplay () {
@@ -32,9 +33,15 @@ function ProjectDisplay () {
         </div>
         <div className='netlifyLink'>
           <a className='pb-2' href={project.netlifyLink} target='_blank' rel='noreferrer'>
-            <img src={netlify} style={{ width: '30px',margin:"0px" }} alt='Netlify' />
+            <img src={netlify} style={{ width: '30px',margin:"4px" }} alt='Netlify' />
           </a>
           <span>Netlify</span>
+        </div>
+        <div className='netlifyLink'>
+          <a className='pb-2' href={project.verselOrRender} target='_blank' rel='noreferrer'>
+            <img src={versel} style={{ width: '50px',height:"30px",margin:"4px" }} alt='Netlify' />
+          </a>
+          <span>Render/Versel</span>
         </div>
       </div>
     </div>

@@ -21,7 +21,8 @@ const ProjectList = [
     skills: 'React, Node JS, Express JS, MongoDB ',
     gitLink1: 'https://github.com/Rajeshs1708/URL-Shortener-app-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/URL-Shortener-app-backend',
-    netlifyLink: 'https://url-shortener-app-finaltask.netlify.app/'
+    netlifyLink: 'https://url-shortener-app-finaltask.netlify.app/',
+    verselOrRender: ''
   },
   {
     name: 'Login System(MERN)',
@@ -30,7 +31,8 @@ const ProjectList = [
     skills: 'React, Node JS, Express JS, MongoDB ',
     gitLink1: 'https://github.com/Rajeshs1708/Password_Reset_Flow-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/Password_Reset_Flow-backend',
-    netlifyLink: 'https://password-reset-flow-app.netlify.app/'
+    netlifyLink: 'https://password-reset-flow-app.netlify.app/',
+    verselOrRender: ''
   },
   {
     name: 'Blog_App(MERN)',
@@ -39,7 +41,8 @@ const ProjectList = [
     skills: 'React, Material UI, Node JS, Express JS, MongoDB',
     gitLink1: 'https://github.com/Rajeshs1708/Blog_app_Frontend',
     gitLink2: 'https://github.com/Rajeshs1708/Blog_app_Backend',
-    netlifyLink: 'https://blog-app-001.netlify.app/'
+    netlifyLink: 'https://blog-app-001.netlify.app/',
+    verselOrRender: ''
   },
   {
     name: 'Login/Logout with OAuth(MERN)',
@@ -50,7 +53,8 @@ const ProjectList = [
       'https://github.com/Rajeshs1708/Login-logout-with-multiple-OAuth-frontend-',
     gitLink2:
       'https://github.com/Rajeshs1708/Login-logout-with-multiple-OAuth-backend',
-    netlifyLink: 'https://login-with-oauth.netlify.app/'
+    netlifyLink: 'https://login-with-oauth.netlify.app/',
+    verselOrRender: ''
   },
   {
     name: 'WhatsApp Clone(MERN)',
@@ -59,7 +63,8 @@ const ProjectList = [
     skills: 'React, Node JS, Express JS, MongoDB',
     gitLink1: 'https://github.com/Rajeshs1708/whatsapp-mern-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/whatsapp-mern-backend',
-    netlifyLink: 'https://whatsapp-clone-001.netlify.app/'
+    netlifyLink: 'https://whatsapp-clone-001.netlify.app/',
+    verselOrRender: ''
   },
   {
     name: 'Amazon Clone (UI)',

@@ -1,8 +1,7 @@
-footer{
-    background-color: #21325e;
+footer {
+  background-color: #21325e;
 }
 
-
-footer section a svg:hover{
-    color: yellow;
+footer section a svg:hover {
+  color: yellow;
 }
