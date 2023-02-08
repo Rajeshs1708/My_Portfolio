@@ -1,7 +1,7 @@
-import React from 'react';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import HomeIcon from '@mui/icons-material/Home';
-import EmailIcon from '@mui/icons-material/Email';
+import React from 'react'
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
+import HomeIcon from '@mui/icons-material/Home'
+import EmailIcon from '@mui/icons-material/Email'
 
 function Contact () {
   return (
@@ -15,7 +15,7 @@ function Contact () {
       </p>
       <div className='row ps-2 pe-2'>
         {/* Input part */}
-        <div className='col-md-5 mb-md-0 mb-5'>
+        <div className='col-md-5 mb-md-0 mb-5 pe-4'>
           <form
             id='contact-form'
             name='contact-form'
@@ -91,7 +91,7 @@ function Contact () {
             <div className='col-sm-1 mb-2'>
               <HomeIcon />
             </div>
-            <div className='col-sm-7'>
+            <div className='col-sm-7 lead'>
               No.10, Bharathidasan street,TMP Nagar,Padi-Chennai-600050.
             </div>
           </div>
@@ -99,13 +99,13 @@ function Contact () {
             <div className='col-sm-1 mb-2'>
               <LocalPhoneIcon />
             </div>
-            <div className='col-sm-7'>+91- 8637656612</div>
+            <div className='col-sm-7 lead'>+91- 8637656612</div>
           </div>
           <div className='row'>
             <div className='col-sm-1 mb-2'>
               <EmailIcon />
             </div>
-            <div className='col-sm-7'>rajeshsitdeveloper@gmail.com</div>
+            <div className='col-sm-7 lead'>rajeshsitdeveloper@gmail.com</div>
           </div>
         </div>
       </div>

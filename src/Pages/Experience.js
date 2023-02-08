@@ -1,69 +1,106 @@
 import React from 'react'
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { School, Work } from '@mui/icons-material';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement
+} from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
+import { School, Work } from '@mui/icons-material'
 
-function Experience() {
+function Experience () {
   return (
     <div className='experience'>
-      <VerticalTimeline lineColor="#3e497a">
-
+      <VerticalTimeline lineColor='#3e497a'>
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2010-2012"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          className='vertical-timeline-element--education'
+          date='2010-2012'
+          iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<School />}
         >
-          <h4 className='vertical-timeline-element-title'>Britannia High School,</h4>
-          <p style={{ color: "gray" }}>Padi, Chennai — <span style={{ color: "#3e497a" }}>89.20%</span></p>
-        </VerticalTimelineElement>
-
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2012-2014"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<School />}
-        >
-          <h4 className='vertical-timeline-element-title'>Vijayanta Higher Secondary School,</h4>
-          <p style={{ color: "gray" }}>Avadi, Chennai — Bio Maths —<span style={{ color: "#3e497a" }}>91.41% </span></p>
+          <figure className='text-start'>
+            <blockquote className='blockquote'>
+              <h4>Britannia High School</h4>
+            </blockquote>
+            <figcaption className='blockquote-footer'>89.20%</figcaption>
+            <figcaption className='blockquote-footer'>Padi, Chennai</figcaption>
+          </figure>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2014-2018"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          className='vertical-timeline-element--education'
+          date='2012-2014'
+          iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<School />}
         >
-          <h4 className='vertical-timeline-element-title'>SRM Institute of Science and Technology,</h4>
-          <p style={{ color: "gray" }}>Potheri, Kattankulathur — B.Tech Civil —<span style={{ color: "#3e497a" }}> 8.21 CGPA</span></p>
+          <figure className='text-start'>
+            <blockquote className='blockquote'>
+              <h4>Vijayanta Higher Secondary School</h4>
+            </blockquote>
+            <figcaption className='blockquote-footer'>
+              91.41%(Bio Maths){' '}
+            </figcaption>
+            <figcaption className='blockquote-footer'>
+              Avadi, Chennai
+            </figcaption>
+          </figure>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2021-2022"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          className='vertical-timeline-element--education'
+          date='2014-2018'
+          iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<School />}
         >
-          <h4 className='vertical-timeline-element-title'>GUVI <span style={{ color: "gray" }}>Zen Class</span></h4>
-          <p style={{ color: "gray" }}>IIT Madras - <span style={{ color: "#3e497a" }}>FULL (MERN) STACK DEVELOPER</span></p>
+          <figure className='text-start'>
+            <blockquote className='blockquote'>
+              <h4>SRM Institute of Science and Technology</h4>
+            </blockquote>
+            <figcaption className='blockquote-footer'>
+              8.21 CGPA (B.Tech Civil)
+            </figcaption>
+            <figcaption className='blockquote-footer'>
+              Potheri, Kattankulathur
+            </figcaption>
+          </figure>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2018-2021"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          className='vertical-timeline-element--education'
+          date='2021-2022'
+          iconStyle={{ background: '#3e497a', color: '#fff' }}
+          icon={<School />}
+        >
+          <figure className='text-start'>
+            <blockquote className='blockquote'>
+              <h4>
+                GUVI <span style={{ color: 'gray' }}>Zen Class</span>
+              </h4>
+            </blockquote>
+            <figcaption className='blockquote-footer'>
+              FULL (MERN) STACK DEVELOPER
+            </figcaption>
+            <figcaption className='blockquote-footer'>
+              IIT Madras Incubated
+            </figcaption>
+          </figure>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className='vertical-timeline-element--education'
+          date='2018-2021'
+          iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<Work />}
         >
-          <h4 className='vertical-timeline-element-title'>Vishal Builders, Creative Construction <span style={{ color: "gray" }}></span></h4>
-          <p style={{ color: "gray" }}>Full-Time<span style={{ color: "#3e497a" }}> Site Supervisor</span></p>
+          <figure className='text-start'>
+            <blockquote className='blockquote'>
+              <h4>Vishal Builders, Creative Construction</h4>
+            </blockquote>
+            <figcaption className='blockquote-footer'>
+              Site Supervisor
+            </figcaption>
+            <figcaption className='blockquote-footer'>Full-Time</figcaption>
+          </figure>
         </VerticalTimelineElement>
-
-
-
       </VerticalTimeline>
-
-      
     </div>
   )
 }

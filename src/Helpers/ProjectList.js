@@ -14,16 +14,7 @@ import calculator from '../Assets/calculator.png'
 import oAuth from '../Assets/oAuth.png'
 
 const ProjectList = [
-  {
-    name: 'URL Shortener(MERN)',
-    alt: 'URL Shortener',
-    image: urlShortener,
-    skills: 'React, Node JS, Express JS, MongoDB ',
-    gitLink1: 'https://github.com/Rajeshs1708/URL-Shortener-app-frontend',
-    gitLink2: 'https://github.com/Rajeshs1708/URL-Shortener-app-backend',
-    netlifyLink: 'https://url-shortener-app-finaltask.netlify.app/',
-    verselOrRender: ''
-  },
+  
   {
     name: 'Login System(MERN)',
     alt: 'Login System',
@@ -32,7 +23,7 @@ const ProjectList = [
     gitLink1: 'https://github.com/Rajeshs1708/Password_Reset_Flow-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/Password_Reset_Flow-backend',
     netlifyLink: 'https://password-reset-flow-app.netlify.app/',
-    verselOrRender: ''
+    verselOrRender: 'https://password-reset-flow.onrender.com'
   },
   {
     name: 'Blog_App(MERN)',
@@ -42,7 +33,7 @@ const ProjectList = [
     gitLink1: 'https://github.com/Rajeshs1708/Blog_app_Frontend',
     gitLink2: 'https://github.com/Rajeshs1708/Blog_app_Backend',
     netlifyLink: 'https://blog-app-001.netlify.app/',
-    verselOrRender: ''
+    verselOrRender: 'https://blog-app-backend-xi.vercel.app'
   },
   {
     name: 'Login/Logout with OAuth(MERN)',
@@ -54,7 +45,18 @@ const ProjectList = [
     gitLink2:
       'https://github.com/Rajeshs1708/Login-logout-with-multiple-OAuth-backend',
     netlifyLink: 'https://login-with-oauth.netlify.app/',
-    verselOrRender: ''
+    verselOrRender:
+      'https://login-logout-with-multiple-o-auth-backend.vercel.app'
+  },
+  {
+    name: 'URL Shortener(MERN)',
+    alt: 'URL Shortener',
+    image: urlShortener,
+    skills: 'React, Node JS, Express JS, MongoDB ',
+    gitLink1: 'https://github.com/Rajeshs1708/URL-Shortener-app-frontend',
+    gitLink2: 'https://github.com/Rajeshs1708/URL-Shortener-app-backend',
+    netlifyLink: 'https://url-shortener-app-finaltask.netlify.app/',
+    verselOrRender: 'https://url-shortener-app-dyo5.onrender.com'
   },
   {
     name: 'WhatsApp Clone(MERN)',
@@ -64,7 +66,7 @@ const ProjectList = [
     gitLink1: 'https://github.com/Rajeshs1708/whatsapp-mern-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/whatsapp-mern-backend',
     netlifyLink: 'https://whatsapp-clone-001.netlify.app/',
-    verselOrRender: ''
+    verselOrRender: 'https://whatsapp-mern-backend-wy91.vercel.app'
   },
   {
     name: 'Amazon Clone (UI)',
