@@ -105,7 +105,7 @@ function Contact () {
             <div className='col-sm-1 mb-2'>
               <EmailIcon />
             </div>
-            <div className='col-sm-7 lead'>rajeshsitdeveloper@gmail.com</div>
+            <div className='col-sm-7 lead'>rajeshs1097@gmail.com</div>
           </div>
         </div>
       </div>

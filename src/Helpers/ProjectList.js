@@ -1,5 +1,6 @@
 import urlShortener from '../Assets/urlShortener.png'
 import loginSystem from '../Assets/loginSystem.png'
+import crm from '../Assets/crm.png'
 import whatsApp from '../Assets/whatsApp.png'
 import amazon from '../Assets/amazon.png'
 import youtube from '../Assets/youtube.png'
@@ -24,6 +25,16 @@ const ProjectList = [
     gitLink2: 'https://github.com/Rajeshs1708/Password_Reset_Flow-backend',
     netlifyLink: 'https://password-reset-flow-app.netlify.app/',
     verselOrRender: 'https://password-reset-flow.onrender.com'
+  },
+  {
+    name: 'CRM(MERN)',
+    alt: 'Customer Relationship Management',
+    image: crm,
+    skills: 'React, Bootstrap, Node JS, Express JS, MongoDB ',
+    gitLink1: 'https://github.com/Rajeshs1708/CPM-webcode-frontend',
+    gitLink2: 'https://github.com/Rajeshs1708/CPM-webcode-backend',
+    netlifyLink: '	https://cpm-app-489603.netlify.app/',
+    verselOrRender: 'https://crm-app-f598.onrender.com'
   },
   {
     name: 'Blog_App(MERN)',
