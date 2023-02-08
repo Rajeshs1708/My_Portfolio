@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/Home.css'
-import LinkIcon from '@mui/icons-material/Link'
 
 function Home () {
   return (
