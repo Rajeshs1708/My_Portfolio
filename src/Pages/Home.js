@@ -18,7 +18,7 @@ function Home () {
             <div className='svgIcon'>
               <a
                 rel='noreferrer'
-                href='https://docs.google.com/document/d/1mB8SQKGtlbAtGp5zwvsDka7Di88PWqBDgLbuMXvzqew/edit'
+                href='https://drive.google.com/file/d/18K5LfP_vP-XTpmXSrfke3yevwXU3G8fg/view?usp=sharing'
                 className='resume text-center'
                 target='_blank'
               >

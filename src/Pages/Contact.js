@@ -16,12 +16,7 @@ function Contact () {
       <div className='row ps-2 pe-2'>
         {/* Input part */}
         <div className='col-md-5 mb-md-0 mb-5 pe-4'>
-          <form
-            id='contact-form'
-            name='contact-form'
-            action='mail.php'
-            method='POST'
-          >
+          <form id='contact-form' name='contact-form' action='' method='POST'>
             <div className='row mb-2'>
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
@@ -101,11 +96,55 @@ function Contact () {
             </div>
             <div className='col-sm-7 lead'>+91- 8637656612</div>
           </div>
-          <div className='row'>
+          <div className='row mb-3'>
             <div className='col-sm-1 mb-2'>
               <EmailIcon />
             </div>
             <div className='col-sm-7 lead'>rajeshs1097@gmail.com</div>
+          </div>
+
+          <div className='row mb-3'>
+            <div className='col-sm-1 mb-2'>
+              <img
+                alt='github'
+                src='/Images/github.png'
+                style={{ width: '30px', borderRadius: '50%' }}
+              />
+            </div>
+            <div className='col-sm-7 lead'>
+              <a
+                style={{color: 'black' }}
+                className='lead m-1'
+                href='https://github.com/Rajeshs1708'
+                target='_blank'
+                title='GitHub'
+                rel='noreferrer'
+              >
+                GitHub Profile
+              </a>
+            </div>
+          </div>
+
+          <div className='row mb-3'>
+            <div className='col-sm-1 mb-2'>
+              <img
+                alt='linkedin'
+                src='/Images/linkedin.png'
+                style={{ width: '30px', borderRadius: '50%' }}
+              />
+            </div>
+            <div className='col-sm-7 lead'>
+              <a
+                style={{ color: 'black'  }}
+                className='m-1'
+                href='https://www.linkedin.com/in/rajesh-s-42085124a'
+                target='_blank'
+                title='linkedin'
+                rel='noreferrer'
+              >
+                LinkedIn Profile
+              </a>
+            </div>
           </div>
         </div>
       </div>
