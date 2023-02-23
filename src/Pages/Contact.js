@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email'
 
 function Contact () {
   return (
-    <section className='m-4'>
+    <section className='m-4' style={{color:"#3e497a"}}>
       <h2 className='h1-responsive font-weight-bold text-center my-4'>
         Contact us
       </h2>
@@ -13,9 +13,9 @@ function Contact () {
         Do you have any questions? Please do not hesitate to contact us
         directly.
       </p>
-      <div className='row ps-2 pe-2'>
+      <div className='row justify-content-end ps-2 pe-2'>
         {/* Input part */}
-        <div className='col-md-5 mb-md-0 mb-5 pe-4'>
+        <div className='col-md-4 mb-md-0 mb-5 pe-4'>
           <form id='contact-form' name='contact-form' action='' method='POST'>
             <div className='row mb-2'>
               <div className='col-md-12'>
@@ -81,70 +81,30 @@ function Contact () {
         </div>
 
         {/* Address part */}
-        <div className='col-md-7 ps-5'>
-          <div className='row mb-3'>
-            <div className='col-sm-1 mb-2'>
-              <HomeIcon />
-            </div>
-            <div className='col-sm-7 lead'>
+        <div className='col-md-6 ps-5'>
+          <div className='mb-5'>
+            <p>
+              <span style={{ paddingRight: '20px' }}>
+                <HomeIcon />
+              </span>
               No.10, Bharathidasan street,TMP Nagar,Padi-Chennai-600050.
-            </div>
+            </p>
           </div>
-          <div className='row mb-3'>
-            <div className='col-sm-1 mb-2'>
-              <LocalPhoneIcon />
-            </div>
-            <div className='col-sm-7 lead'>+91- 8637656612</div>
+          <div className='mb-5'>
+            <p>
+              <span style={{ paddingRight: '20px' }}>
+                <LocalPhoneIcon />
+              </span>
+              +91- 8637656612
+            </p>
           </div>
-          <div className='row mb-3'>
-            <div className='col-sm-1 mb-2'>
-              <EmailIcon />
-            </div>
-            <div className='col-sm-7 lead'>rajeshs1097@gmail.com</div>
-          </div>
-
-          <div className='row mb-3'>
-            <div className='col-sm-1 mb-2'>
-              <img
-                alt='github'
-                src='/Images/github.png'
-                style={{ width: '30px', borderRadius: '50%' }}
-              />
-            </div>
-            <div className='col-sm-7 lead'>
-              <a
-                style={{color: 'black' }}
-                className='lead m-1'
-                href='https://github.com/Rajeshs1708'
-                target='_blank'
-                title='GitHub'
-                rel='noreferrer'
-              >
-                GitHub Profile
-              </a>
-            </div>
-          </div>
-
-          <div className='row mb-3'>
-            <div className='col-sm-1 mb-2'>
-              <img
-                alt='linkedin'
-                src='/Images/linkedin.png'
-                style={{ width: '30px', borderRadius: '50%' }}
-              />
-            </div>
-            <div className='col-sm-7 lead'>
-              <a
-                style={{ color: 'black'  }}
-                className='m-1'
-                href='https://www.linkedin.com/in/rajesh-s-42085124a'
-                target='_blank'
-                title='linkedin'
-                rel='noreferrer'
-              >
-                LinkedIn Profile
-              </a>
-            </div>
+          <div className='mb-5'>
+            <p>
+              <span style={{ paddingRight: '20px' }}>
+                <EmailIcon />
+              </span>
+              rajeshs1097@gmail.com
+            </p>
           </div>
         </div>
       </div>

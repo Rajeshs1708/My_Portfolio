@@ -9,25 +9,24 @@ function Home () {
           <img className='img-fluid' src='/Images/Rajesh.jpg' alt='Rajesh' />
         </div>
         <div className='aboutRight col-md-7'>
-          <h2>Hi, My Name is Rajesh</h2>
+          <h2>Hi, I'm Rajesh</h2>
+          <h3>Full Stack-Developer</h3>
           <div className='prompt'>
             <p>
-              A Full Stack Web Developer with a passion for learning and
-              creating.
+             I have completed my MERN stack development course and having hands-on experience in web application from creating full stack projects and attend hackathans Currently. I looking for a job from which i get trained technologies like React Js, Node Js MongoDB.
             </p>
             <div className='svgIcon'>
               <a
                 rel='noreferrer'
                 href='https://drive.google.com/file/d/18K5LfP_vP-XTpmXSrfke3yevwXU3G8fg/view?usp=sharing'
-                className='resume text-center'
+                className='resume'
                 target='_blank'
               >
                 <img
-                  alt=''
+                  alt='Resume'
                   src='/Images/resume.jpg'
                   style={{ width: '50px', borderRadius: '50%' }}
                   title='Resume'
-
                 />
               </a>
             </div>

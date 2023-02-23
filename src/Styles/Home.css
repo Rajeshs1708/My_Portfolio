@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   background-color: #21325e;
   color: #f0f0f0;
 }
@@ -13,29 +13,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px;
+  padding: 20px 0px;  
+
 }
 .aboutLeft img {
-  width: 340px;
+  width: 380px;
   border-radius: 50%;
   object-fit: cover;
 }
 .aboutRight {
-  height: 70vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin-bottom: 30px;
 }
 .aboutRight h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 60px;
+}
+.aboutRight h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
   color: #e9d35b;
 }
 .aboutRight p {
-  font-size: 25px;
-  padding: 1.5rem;
+  font-size: 18px;
 }
 .resume {
-  font-size: 15px;
+  font-size: 25px;
 }

@@ -1,7 +1,8 @@
 footer {
   background-color: #21325e;
 }
-
-footer section a svg:hover {
-  color: yellow;
+footer section img {
+  width: 30px;
+  border-radius: 50%;
+ 
 }

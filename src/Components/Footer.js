@@ -5,12 +5,10 @@ function Footer () {
   return (
     <footer
       className='text-center'
-      style={{ backgroundolor: '#f1f1f1' }}
     >
       <div className='pt-4'>
         <section className='mb-3'>
           <a
-            style={{ textColor: 'black' }}
             className='btn btn-link btn-floating btn-lg text-white m-1'
             href='https://github.com/Rajeshs1708'
             target='_blank'
@@ -18,7 +16,7 @@ function Footer () {
             rel='noreferrer'
             role='button'
           >
-          <img alt='github' src='/Images/github.png' style={{width:"30px",borderRadius:"50%"}} />
+          <img alt='github' src='/Images/github.png' />
           </a>
           <a
             className='btn btn-link btn-floating btn-lg text-white m-1'
@@ -28,7 +26,7 @@ function Footer () {
             target='_blank'
             rel='noreferrer'
           >
-            <img alt='linkedin' src='/Images/linkedin.png' style={{width:"30px",borderRadius:"50%"}} />
+            <img alt='linkedin' src='/Images/linkedin.png' />
           </a>
           <a
             className='btn btn-link btn-floating btn-lg text-white m-1'
@@ -38,7 +36,7 @@ function Footer () {
             rel='noreferrer'
             role='button'
           >
-            <img alt='resume' src='/Images/resume.jpg' style={{width:"30px",borderRadius:"50%"}} />
+            <img alt='resume' src='/Images/resume.jpg' />
           </a>
         </section>
       </div>

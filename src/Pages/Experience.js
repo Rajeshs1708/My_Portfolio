@@ -8,7 +8,7 @@ import { School, Work } from '@mui/icons-material'
 
 function Experience () {
   return (
-    <div className='experience'>
+    <div className='experience' style={{color:"#3e497a"}}>
       <VerticalTimeline lineColor='#3e497a'>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
@@ -65,7 +65,7 @@ function Experience () {
 
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
-          date='2021-2022'
+          date='2022-2023'
           iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<School />}
         >

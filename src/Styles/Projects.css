@@ -13,6 +13,13 @@
   color: #3e497a;
   padding-top: 1rem;
 }
+.credentials {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  color: #3e497a;
+}
 
 .projectList {
   width: 90vw;

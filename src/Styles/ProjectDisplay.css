@@ -13,13 +13,13 @@
 }
 
 .project img {
-  width: 600px;
+  width: 800px;
   border-radius: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 .skillsDescription{
-  width: 45%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
