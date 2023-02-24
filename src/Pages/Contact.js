@@ -34,7 +34,7 @@ function Contact () {
        
       }
     } catch (err) {
-      const notify = () => toast.error(`*${err.response.data}*`, { theme: 'colored' });
+      const notify = () => toast.error(`Internal server error`, { theme: 'colored' });
       notify()
       console.log('Error: ', err)
     }
