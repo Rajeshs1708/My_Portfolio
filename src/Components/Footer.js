@@ -30,7 +30,7 @@ function Footer () {
           </a>
           <a
             className='btn btn-link btn-floating btn-lg text-white m-1'
-            href='https://drive.google.com/file/d/18K5LfP_vP-XTpmXSrfke3yevwXU3G8fg/view?usp=sharing'
+            href='https://drive.google.com/file/d/1hguAJ8tZ8HmybNXGGCcL9zoqr4Lb3NOs/view?usp=sharing'
             target='_blank'
             title='Resume'
             rel='noreferrer'
