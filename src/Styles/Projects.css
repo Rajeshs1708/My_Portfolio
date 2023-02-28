@@ -24,6 +24,7 @@
 .projectList {
   width: 90vw;
   padding: 1rem 0rem;
+  color: #3e497a;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
