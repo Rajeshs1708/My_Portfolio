@@ -16,17 +16,6 @@ import oAuth from '../Assets/oAuth.png'
 
 const ProjectList = [
   {
-    name: 'Login System(MERN)',
-    alt: 'Login System',
-    image: loginSystem,
-    skills: 'React, Node JS, Express JS, MongoDB ',
-    gitLink1: 'https://github.com/Rajeshs1708/Password_Reset_Flow-frontend',
-    gitLink2: 'https://github.com/Rajeshs1708/Password_Reset_Flow-backend',
-    netlifyLink: 'https://password-reset-flow-app.netlify.app/',
-    description:
-      'Login MERN application is a full-stack web application that provides users with an easy way to create and manage their account and log in to a secure profile. It is built with the MERN stack (MongoDB, Express, React, Node.js) and provides users with an intuitive, secure, and user-friendly interface.It also supports secure authentication.'
-  },
-  {
     name: 'Blog_App(MERN)',
     alt: 'Blog_App',
     image: blogApp,
@@ -42,7 +31,7 @@ const ProjectList = [
     alt: 'Customer Relationship Management',
     image: crm,
     skills:
-      'React, Bootstrap, Node JS, Express JS, MongoDB, Socket.io, Razorpay ',
+      'React, Bootstrap, Node JS, Express JS, MongoDB, Socket.io, Stripe(Payment)',
     gitLink1: 'https://github.com/Rajeshs1708/CPM-webcode-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/CPM-webcode-backend',
     netlifyLink: 'https://cpm-app-489603.netlify.app/',
@@ -50,18 +39,7 @@ const ProjectList = [
       'CRM MERN application is a powerful customer relationship management (CRM) solution built with MongoDB, Express, React, and Node.js. This full-stack application lets you store information about customers to help you track the status of every customer relationship. The application will be able to store and edit customer details, as well as keep notes about them'
   },
   {
-    name: 'URL Shortener(MERN)',
-    alt: 'URL Shortener',
-    image: urlShortener,
-    skills: 'React, Node JS, Express JS, MongoDB ',
-    gitLink1: 'https://github.com/Rajeshs1708/URL-Shortener-app-frontend',
-    gitLink2: 'https://github.com/Rajeshs1708/URL-Shortener-app-backend',
-    netlifyLink: 'https://url-shortener-app-finaltask.netlify.app/',
-    description:
-      "This URL shortener application is a web application built with the MERN (MongoDB, Express, React, and Node.js) stack that is designed to shorten lengthy URLs into shorter, more manageable ones. It allows users to quickly and easily create, share, and track shortened URLs. The application can also track the number of clicks each URL has received. The idea is to minimize the web page address into something that's easier to remember and track."
-  },
-  {
-    name: 'Login/Logout with OAuth(MERN)',
+    name: 'Find Articles',
     alt: 'OAuth',
     image: oAuth,
     skills: 'React,Bootstrap, Node JS, Express JS, MongoDB',
@@ -73,7 +51,17 @@ const ProjectList = [
     description:
       'Login with multiple OAuth is an authentication system that allows users to log in to a MERN application using their existing accounts from other online service providers such as Google, Facebook, and GitHub. This authentication system uses OAuth (Open Authorization) protocol to securely authenticate users and grant access to the application. It is an efficient way for users to access the application without having to create a new account on the application itself. With this system, users can log in with just one click, streamlining the login process and making the application more user friendly and secure.'
   },
-
+  {
+    name: 'Login System(MERN)',
+    alt: 'Login System',
+    image: loginSystem,
+    skills: 'React, Node JS, Express JS, MongoDB ',
+    gitLink1: 'https://github.com/Rajeshs1708/Password_Reset_Flow-frontend',
+    gitLink2: 'https://github.com/Rajeshs1708/Password_Reset_Flow-backend',
+    netlifyLink: 'https://password-reset-flow-app.netlify.app/',
+    description:
+      'Login MERN application is a full-stack web application that provides users with an easy way to create and manage their account and log in to a secure profile. It is built with the MERN stack (MongoDB, Express, React, Node.js) and provides users with an intuitive, secure, and user-friendly interface.It also supports secure authentication.'
+  },
   {
     name: 'WhatsApp Clone(MERN)',
     alt: 'WhatsApp',
@@ -84,6 +72,17 @@ const ProjectList = [
     netlifyLink: 'https://whatsapp-clone-001.netlify.app/',
     description:
       'WhatsApp Clone MERN application is a full-stack web development application that allows users to develop a communication app similar to WhatsApp. This application is built using the MongoDB, Express.js, React.js, and Node.js (MERN). With this application, users can easily create a messaging platform.'
+  },
+  {
+    name: 'URL Shortener(MERN)',
+    alt: 'URL Shortener',
+    image: urlShortener,
+    skills: 'React, Node JS, Express JS, MongoDB ',
+    gitLink1: 'https://github.com/Rajeshs1708/URL-Shortener-app-frontend',
+    gitLink2: 'https://github.com/Rajeshs1708/URL-Shortener-app-backend',
+    netlifyLink: 'https://url-shortener-app-finaltask.netlify.app/',
+    description:
+      "This URL shortener application is a web application built with the MERN (MongoDB, Express, React, and Node.js) stack that is designed to shorten lengthy URLs into shorter, more manageable ones. It allows users to quickly and easily create, share, and track shortened URLs. The application can also track the number of clicks each URL has received. The idea is to minimize the web page address into something that's easier to remember and track."
   },
   {
     name: 'Amazon Clone (UI)',

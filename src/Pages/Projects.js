@@ -8,8 +8,8 @@ function Projects () {
     <div className='projects'>
       <h1>My Personal Projects</h1>
       <div className='credentials'>
-          <p><b>Admin Email :</b> rajesh@gmail.com  || <span><b>Password :</b> rajesh123</span></p><br />
-          <p><b>User Email :</b> mani@gmail.com  || <span><b>Password :</b> mani123</span></p>   
+          <p><b>Admin Email :</b> admin@gmail.com  || <span><b>Password :</b> admin123</span></p><br />
+          <p><b>User Email :</b> user@gmail.com  || <span><b>Password :</b> user123</span></p>   
       </div>
       <div className='projectList'>
         {ProjectList.map((project, idx) => {
