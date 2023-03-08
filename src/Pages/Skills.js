@@ -15,7 +15,7 @@ function Skills() {
         </div>
         <div className='frontEndBox'>
           <div>
-            <img alt='' src='/Images/react.png' />
+            <img alt='React' src='/Images/react.png' />
           </div>
           <div>
             <h5>React</h5>
@@ -27,7 +27,7 @@ function Skills() {
 
         <div className='frontEndBox'>
           <div>
-            <img alt='' src='/Images/bootstrap.png' />
+            <img alt='Bootstrap' src='/Images/bootstrap.png' />
           </div>
           <div>
             <h5>Bootstrap</h5>
@@ -39,7 +39,7 @@ function Skills() {
 
         <div className='frontEndBox'>
           <div>
-            <img alt='' src='/Images/html5.png' />
+            <img alt='HTML5' src='/Images/html5.png' />
           </div>
           <div>
             <h5>HTML 5</h5>
@@ -51,7 +51,7 @@ function Skills() {
 
         <div className='frontEndBox'>
           <div>
-            <img alt='' src='/Images/css3.png' />
+            <img alt='CSS3' src='/Images/css3.png' />
           </div>
           <div>
             <h5>CSS 3</h5>
@@ -68,7 +68,7 @@ function Skills() {
         </div>
         <div className='backEndBox'>
           <div>
-            <img alt='' src='/Images/node js.png' />
+            <img alt='Node JS' src='/Images/node js.png' />
           </div>
           <div>
             <h5>Node JS</h5>
@@ -82,7 +82,7 @@ function Skills() {
 
         <div className='backEndBox'>
           <div>
-            <img alt='' src='/Images/express.png' />
+            <img alt='Express JS' src='/Images/express.png' />
           </div>
           <div>
             <h5>Express JS</h5>
@@ -94,7 +94,7 @@ function Skills() {
 
         <div className='backEndBox'>
           <div>
-            <img alt='' src='/Images/mongoDB.png' />
+            <img alt='MongoDB' src='/Images/mongoDB.png' />
           </div>
           <div>
             <h5>MongoDB</h5>
@@ -106,7 +106,7 @@ function Skills() {
 
         <div className='backEndBox'>
           <div>
-            <img alt='' src='/Images/mysql.png' />
+            <img alt='My SQL' src='/Images/mysql.png' />
           </div>
           <div>
             <h5>My SQL</h5>
@@ -123,7 +123,7 @@ function Skills() {
         </div>
         <div className='languagesBox'>
           <div>
-            <img alt='' src='/Images/js.png' />
+            <img alt='Javascript' src='/Images/js.png' />
           </div>
           <div>
             <h5>Javascript</h5>

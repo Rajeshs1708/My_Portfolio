@@ -136,7 +136,7 @@ function Contact () {
               <span style={{ paddingRight: '20px' }}>
                 <HomeIcon />
               </span>
-              No.10, Bharathidasan street,TMP Nagar,Padi-Chennai-600050.
+              Padi-Chennai-600050.
             </p>
           </div>
           <div className='mb-5'>
