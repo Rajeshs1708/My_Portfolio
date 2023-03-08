@@ -49,7 +49,7 @@ const ProjectList = [
       'https://github.com/Rajeshs1708/Login-logout-with-multiple-OAuth-backend',
     netlifyLink: 'https://login-with-oauth.netlify.app/',
     description:
-      'Login with multiple OAuth is an authentication system that allows users to log in to a MERN application using their existing accounts from other online service providers such as Google, Facebook, and GitHub. This authentication system uses OAuth (Open Authorization) protocol to securely authenticate users and grant access to the application. It is an efficient way for users to access the application without having to create a new account on the application itself. With this system, users can log in with just one click, streamlining the login process and making the application more user friendly and secure.'
+      'Find Articles app is built with the MERN (MongoDB, Express, React, Node.js) stack and is designed to be fast, secure, and user-friendly.This Find Articles app is a type of website where the content is read only and we can add to favourite. '
   },
   {
     name: 'Login System(MERN)',
