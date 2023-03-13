@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import '../Styles/Projects.css'
 
 function ProjectItem (props) {
   const navigate = useNavigate()
@@ -10,13 +11,13 @@ function ProjectItem (props) {
         onClick={() => {
           navigate('/projects/' + props.id)
         }}
-        style={{ width: '15rem' }}
       >
         <img
           src={props.allProjectsData.image}
           className='card-img-top'
           alt={props.allProjectsData.alt}
         />
+        <hr />
         <div className='card-body'>
           <h5 className='card-title'>{props.allProjectsData.name}</h5>
         </div>

@@ -1,7 +1,7 @@
 import urlShortener from '../Assets/urlShortener.png'
 import loginSystem from '../Assets/loginSystem.png'
 import crm from '../Assets/crm.png'
-import whatsApp from '../Assets/whatsApp.png'
+import chatApp from '../Assets/chatapp.png'
 import amazon from '../Assets/amazon.png'
 import youtube from '../Assets/youtube.png'
 import facebook from '../Assets/facebook.png'
@@ -30,13 +30,23 @@ const ProjectList = [
     name: 'CRM(MERN)',
     alt: 'Customer Relationship Management',
     image: crm,
-    skills:
-      'React, Bootstrap, Node JS, Express JS, MongoDB, Socket.io, Stripe(Payment)',
+    skills: 'React, Bootstrap, Node JS, Express JS, MongoDB, Stripe(Payment)',
     gitLink1: 'https://github.com/Rajeshs1708/CPM-webcode-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/CPM-webcode-backend',
     netlifyLink: 'https://cpm-app-489603.netlify.app/',
     description:
       'CRM MERN application is a powerful customer relationship management (CRM) solution built with MongoDB, Express, React, and Node.js. This full-stack application lets you store information about customers to help you track the status of every customer relationship. The application will be able to store and edit customer details, as well as keep notes about them'
+  },
+  {
+    name: 'Chat App(MERN)',
+    alt: 'Chat App',
+    image: chatApp,
+    skills: 'React, Redux, Bootstrap, Socket.io, Node JS, Express JS, MongoDB',
+    gitLink1: 'https://github.com/Rajeshs1708/chatapp-frontend',
+    gitLink2: 'https://github.com/Rajeshs1708/chatapp-backend',
+    netlifyLink: 'https://chatapp-03-23.netlify.app/',
+    description:
+      'A Chat App(MERN) is an application that allows users to communicate with each other in real-time via chat messages This application is built using the MongoDB, Express.js, React.js, and Node.js (MERN).Users must sign up and log in to use the app. Users can send and receive messages in real-time, without having to refresh the page. Users can send private messages to other users and can see the online status of other users and Users receive notifications when they receive new messages.'
   },
   {
     name: 'Find Articles',
@@ -63,21 +73,10 @@ const ProjectList = [
       'Login MERN application is a full-stack web application that provides users with an easy way to create and manage their account and log in to a secure profile. It is built with the MERN stack (MongoDB, Express, React, Node.js) and provides users with an intuitive, secure, and user-friendly interface.It also supports secure authentication.'
   },
   {
-    name: 'WhatsApp Clone(MERN)',
-    alt: 'WhatsApp',
-    image: whatsApp,
-    skills: 'React, Node JS, Express JS, MongoDB',
-    gitLink1: 'https://github.com/Rajeshs1708/whatsapp-mern-frontend',
-    gitLink2: 'https://github.com/Rajeshs1708/whatsapp-mern-backend',
-    netlifyLink: 'https://whatsapp-clone-001.netlify.app/',
-    description:
-      'WhatsApp Clone MERN application is a full-stack web development application that allows users to develop a communication app similar to WhatsApp. This application is built using the MongoDB, Express.js, React.js, and Node.js (MERN). With this application, users can easily create a messaging platform.'
-  },
-  {
     name: 'URL Shortener(MERN)',
     alt: 'URL Shortener',
     image: urlShortener,
-    skills: 'React, Node JS, Express JS, MongoDB ',
+    skills: 'React, Bootstrap, Node JS, Express JS, MongoDB ',
     gitLink1: 'https://github.com/Rajeshs1708/URL-Shortener-app-frontend',
     gitLink2: 'https://github.com/Rajeshs1708/URL-Shortener-app-backend',
     netlifyLink: 'https://url-shortener-app-finaltask.netlify.app/',
