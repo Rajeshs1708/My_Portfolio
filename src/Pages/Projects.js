@@ -7,7 +7,7 @@ function Projects () {
   return (
     <div className='projects'>
       <h1>My Personal Projects</h1>
-      <div className='credentials'>
+      <div className='credentials text-center'>
           <p><b>Admin Email :</b> admin@gmail.com  || <span><b>Password :</b> admin123</span></p><br />
           <p><b>User Email :</b> user@gmail.com  || <span><b>Password :</b> user123</span></p>   
       </div>
