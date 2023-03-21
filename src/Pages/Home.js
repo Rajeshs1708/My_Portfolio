@@ -17,7 +17,7 @@ function Home () {
               <p>
                 I have completed my MERN stack development course and having
                 hands-on experience in web application from creating full stack
-                projects and attend hackathans Currently. I looking for a job
+                projects and attend hackathons currently. I looking for a job
                 from which i get trained technologies like React Js, Node Js
                 MongoDB.
               </p>
