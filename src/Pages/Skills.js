@@ -3,9 +3,9 @@ import '../Styles/Skills.css'
 
 function Skills() {
   return (
-    <div className='skills container'>
+    <div className='skills container-fluid'>
     <div className='text-center'>
-      <h1 className='skillHeading display-3'>Skills</h1>
+      <p className='skillHeading display-4'>Skills</p>
     </div>
 
     <div className='skillList row'>
@@ -127,6 +127,42 @@ function Skills() {
           </div>
           <div>
             <h5>Javascript</h5>
+          </div>
+          <div>
+            <progress max='100' value='70'></progress>
+          </div>
+        </div>
+
+        <div className='languagesBox'>
+          <div>
+            <img alt='Javascript' src='/Images/postman.png' />
+          </div>
+          <div>
+            <h5>Postman</h5>
+          </div>
+          <div>
+            <progress max='100' value='80'></progress>
+          </div>
+        </div>
+
+        <div className='languagesBox'>
+          <div>
+            <img alt='Javascript' src='/Images/aws.png' />
+          </div>
+          <div>
+            <h5>AWS</h5>
+          </div>
+          <div>
+            <progress max='100' value='60'></progress>
+          </div>
+        </div>
+
+        <div className='languagesBox'>
+          <div>
+            <img alt='Javascript' src='/Images/render.png' />
+          </div>
+          <div>
+            <h5>Render</h5>
           </div>
           <div>
             <progress max='100' value='70'></progress>

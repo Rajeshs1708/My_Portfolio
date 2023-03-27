@@ -6,7 +6,15 @@
 .navbar a {
   color: white;
 }
-
+.navbar a:hover {
+  color: white;
+}
+.navbar a:visited {
+  color: white;
+}
+.navbar a:active {
+  color: yellow;
+}
 #navbarNavAltMarkup {
   justify-content: center;
 }
