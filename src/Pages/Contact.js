@@ -46,7 +46,7 @@ function Contact () {
     })
   }
   return (
-    <section className='m-4' style={{ color: '#3e497a' }}>
+    <section className='p-3' style={{ color: '#3e497a' }}>
       <h2
         style={{
           textShadow:
@@ -56,19 +56,19 @@ function Contact () {
       >
         Contact us
       </h2>
-      <p className='text-center w-responsive mx-auto mb-5'>
+      <p className='text-center w-responsive mx-auto mb-3'>
         Do you have any questions? Please do not hesitate to contact us
         directly.
       </p>
-      <div className='row justify-content-end ps-2 pe-2'>
+      <div className='row justify-content-center'>
         {/* Input part */}
-        <div className='col-md-5 mb-md-0 mb-5 pe-4'>
+        <div className='col-md-5 p-4'>
           <form onSubmit={handleSubmit} id='contact-form' name='contact-form'>
             <div className='row mb-2'>
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
                   <input
-                    style={{ border: 'none', borderRadius: '30px' }}
+                    style={{  borderRadius: '5px' }}
                     type='text'
                     id='name'
                     name='name'
@@ -85,7 +85,7 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
                   <input
-                    style={{ border: 'none', borderRadius: '30px' }}
+                    style={{  borderRadius: '5px' }}
                     type='text'
                     id='email'
                     name='email'
@@ -102,7 +102,7 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
                   <input
-                    style={{ border: 'none', borderRadius: '30px' }}
+                    style={{  borderRadius: '5px' }}
                     type='number'
                     id='number'
                     name='number'
@@ -119,7 +119,7 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form'>
                   <textarea
-                    style={{ border: 'none', borderRadius: '30px' }}
+                    style={{  borderRadius: '5px' }}
                     type='text'
                     id='message'
                     name='message'
@@ -132,38 +132,57 @@ function Contact () {
               </div>
             </div>
 
-            <div className='row mb-2'>
-              <input style={{border:"none",borderRadius:"30px"}} type='submit' className='btn btn-primary large' />
+            <div className='row mt-4'>
+              <input
+                style={{  borderRadius: '5px' }}
+                type='submit'
+                className='btn btn-primary large'
+              />
             </div>
             <ToastContainer hideProgressBar={true} />
           </form>
         </div>
 
         {/* Address part */}
-        <div className='col-md-6 d-flex flex-column align-items-start justify-content-center'>
-          <div className='mb-5'>
-            <p>
-              <span style={{ paddingRight: '20px' }}>
-                <HomeIcon />
-              </span>
-              Padi-Chennai-600050.
-            </p>
-          </div>
-          <div className='mb-5'>
-            <p>
-              <span style={{ paddingRight: '20px' }}>
-                <LocalPhoneIcon />
-              </span>
-              +91- 8637656612
-            </p>
-          </div>
-          <div className='mb-5'>
-            <p>
-              <span style={{ paddingRight: '20px' }}>
-                <EmailIcon />
-              </span>
-              rajeshs1097@gmail.com
-            </p>
+        <div className='col-md-5 p-4'>
+          <div className='row'>
+            <div className='col-12 pt-3 mb-4'>
+              <div>
+                <p>
+                  <span style={{ paddingRight: '20px' }}>
+                    <HomeIcon />
+                  </span>
+                  TMP Nagar,Padi,Chennai-600050.
+                </p>
+              </div>
+              <div>
+                <p>
+                  <span style={{ paddingRight: '20px' }}>
+                    <LocalPhoneIcon />
+                  </span>
+                  +91- 8637656612
+                </p>
+              </div>
+              <div>
+                <p>
+                  <span style={{ paddingRight: '20px' }}>
+                    <EmailIcon />
+                  </span>
+                  rajeshs1097@gmail.com
+                </p>
+              </div>
+            </div>
+
+            <div className='col-12'>
+              <iframe
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31087.846357532337!2d80.1692240055797!3d13.100403158364452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263f71ccaa7c7%3A0x4eaca488332e5dbe!2sPadi%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1680244346269!5m2!1sen!2sin'
+                style={{ border: '0', width: '100%', height: '200px' }}
+                allowfullscreen=''
+                loading='lazy'
+                title='Map'
+                referrerpolicy='no-referrer-when-downgrade'
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
