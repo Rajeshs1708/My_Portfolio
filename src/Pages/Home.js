@@ -10,7 +10,7 @@ function Home () {
           <div className='aboutLeft col-md-5'>
             <img className='img-fluid' src='/Images/Rajesh.jpg' alt='Rajesh' />
           </div>
-          <div className='aboutRight col-md-7'>
+          <div className='aboutRight col-md-7 p-3'>
             <h2>Hi,I'm Rajesh</h2>
             <h3>Full Stack-Developer</h3>
             <div className='prompt'>
@@ -18,7 +18,7 @@ function Home () {
                 I have completed my MERN stack development course and having
                 hands-on experience in web application from creating full stack
                 projects and attend hackathons currently. I looking for a job
-                from which i get trained technologies like React Js, Node Js
+                from which i get trained technologies like React Js, Node Js,
                 MongoDB.
               </p>
               <div className='svgIcon'>
