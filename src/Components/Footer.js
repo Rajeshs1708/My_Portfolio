@@ -3,9 +3,7 @@ import '../Styles/Footer.css'
 
 function Footer () {
   return (
-    <footer
-      className='text-center'
-    >
+    <footer className='text-center'>
       <div className='pt-4'>
         <section className='mb-3'>
           <a
@@ -16,11 +14,11 @@ function Footer () {
             rel='noreferrer'
             role='button'
           >
-          <img alt='github' src='/Images/github.png' />
+            <img alt='github' src='/Images/github.png' />
           </a>
           <a
             className='btn btn-link btn-floating btn-lg text-white m-1'
-            href='https://www.linkedin.com/in/rajesh-s-42085124a'
+            href='https://www.linkedin.com/in/rajesh-s-bb448a147/'
             role='button'
             title='linkedin'
             target='_blank'
@@ -30,7 +28,7 @@ function Footer () {
           </a>
           <a
             className='btn btn-link btn-floating btn-lg text-white m-1'
-            href='https://drive.google.com/file/d/18K5LfP_vP-XTpmXSrfke3yevwXU3G8fg/view?usp=sharing'
+            href='https://drive.google.com/file/d/1yA4aHo80fX5pTPhX0FGXpM_73CF5XeN5/view?usp=share_link'
             target='_blank'
             title='Resume'
             rel='noreferrer'
