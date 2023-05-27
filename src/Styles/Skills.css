@@ -26,15 +26,15 @@
   justify-content: center;
   align-items: center;
 }
-.frontEnd h2{
+.frontEnd h2 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
-.frontEnd:hover {
+/* .frontEnd:hover {
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
-}
+} */
 
 @keyframes shake {
   10%,
@@ -81,7 +81,7 @@
   padding-top: 20px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-.backEnd h2{
+.backEnd h2 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .backEnd:hover {
@@ -134,15 +134,15 @@
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   align-items: center;
 }
-.languages h2{
+.languages h2 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
-.languages:hover {
+/* .languages:hover {
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
-}
+} */
 
 @keyframes shake {
   10%,
