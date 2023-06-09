@@ -47,15 +47,7 @@ function Contact () {
   }
   return (
     <section className='p-3' style={{ color: '#3e497a' }}>
-      <h2
-        style={{
-          textShadow:
-            '0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),0 20px 20px rgba(0, 0, 0, 0.15)'
-        }}
-        className='display-4 text-center'
-      >
-        Contact us
-      </h2>
+      <h2 className='display-4 text-center'>Contact us</h2>
       <p className='text-center w-responsive mx-auto mb-3'>
         Do you have any questions? Please do not hesitate to contact us
         directly.
@@ -68,7 +60,7 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
                   <input
-                    style={{  borderRadius: '5px' }}
+                    style={{ borderRadius: '5px' }}
                     type='text'
                     id='name'
                     name='name'
@@ -85,7 +77,7 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
                   <input
-                    style={{  borderRadius: '5px' }}
+                    style={{ borderRadius: '5px' }}
                     type='text'
                     id='email'
                     name='email'
@@ -102,7 +94,7 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form mb-0'>
                   <input
-                    style={{  borderRadius: '5px' }}
+                    style={{ borderRadius: '5px' }}
                     type='number'
                     id='number'
                     name='number'
@@ -119,7 +111,7 @@ function Contact () {
               <div className='col-md-12'>
                 <div className='md-form'>
                   <textarea
-                    style={{  borderRadius: '5px' }}
+                    style={{ borderRadius: '5px' }}
                     type='text'
                     id='message'
                     name='message'
@@ -134,7 +126,7 @@ function Contact () {
 
             <div className='row mt-4'>
               <input
-                style={{  borderRadius: '5px' }}
+                style={{ borderRadius: '5px' }}
                 type='submit'
                 className='btn btn-primary large'
               />
