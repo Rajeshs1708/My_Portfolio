@@ -52,9 +52,9 @@ function Contact () {
         Do you have any questions? Please do not hesitate to contact us
         directly.
       </p>
-      <div className='row justify-content-center'>
+      <div className='row justify-content-around'>
         {/* Input part */}
-        <div className='col-md-5 p-4'>
+        <div className='shadow col-md-5 p-4'>
           <form onSubmit={handleSubmit} id='contact-form' name='contact-form'>
             <div className='row mb-2'>
               <div className='col-md-12'>
@@ -136,7 +136,7 @@ function Contact () {
         </div>
 
         {/* Address part */}
-        <div className='col-md-5 p-4'>
+        <div className='shadow col-md-5 p-4'>
           <div className='row'>
             <div className='col-12 pt-3 mb-4'>
               <div>
@@ -169,7 +169,7 @@ function Contact () {
               <iframe
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31087.846357532337!2d80.1692240055797!3d13.100403158364452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263f71ccaa7c7%3A0x4eaca488332e5dbe!2sPadi%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1680244346269!5m2!1sen!2sin'
                 style={{ border: '0', width: '100%', height: '200px' }}
-                allowfullscreen=''
+                allowFullScreen=''
                 loading='lazy'
                 title='Map'
                 referrerpolicy='no-referrer-when-downgrade'

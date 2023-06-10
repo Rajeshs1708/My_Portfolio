@@ -7,9 +7,13 @@ function Home () {
       <div className='container-fluid'>
         <div className='about row'>
           <div className='aboutLeft col-md-5'>
-            <img className='img-fluid' src='/Images/Rajesh.jpg' alt='Rajesh' />
+            <img
+              className='img-fluid mx-auto d-block'
+              src='/Images/Rajesh.jpg'
+              alt='Rajesh'
+            />
           </div>
-          <div className='aboutRight col-md-7 p-3'>
+          <div className='shadow text-wrap aboutRight col-md-7 p-3'>
             <h2>Hi,I'm Rajesh</h2>
             <h3 data-text='Full_Stack_Developer...'>Full_Stack_Developer...</h3>
             <div className='prompt'>

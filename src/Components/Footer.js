@@ -3,7 +3,7 @@ import '../Styles/Footer.css'
 
 function Footer () {
   return (
-    <footer className='text-center'>
+    <footer className='shadow text-center'>
       <div className='pt-4'>
         <section className='mb-3'>
           <a
