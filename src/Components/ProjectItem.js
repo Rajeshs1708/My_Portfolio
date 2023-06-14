@@ -17,7 +17,7 @@ function ProjectItem (props) {
           className='card-img-top'
           alt={props.allProjectsData.alt}
         />
-       
+
         <div className='card-body'>
           <hr />
           <h5 className='card-title'>{props.allProjectsData.name}</h5>

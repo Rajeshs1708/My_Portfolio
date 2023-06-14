@@ -8,11 +8,11 @@ import { School, Work } from '@mui/icons-material'
 
 function Experience () {
   return (
-    <div className='experience' style={{color:"#3e497a"}}>
+    <div className='experience' style={{ color: '#3e497a' }}>
       <VerticalTimeline lineColor='#3e497a'>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
-          date='2010-2012'
+          date='2011-2012'
           iconStyle={{ background: '#3e497a', color: '#fff' }}
           icon={<School />}
         >
