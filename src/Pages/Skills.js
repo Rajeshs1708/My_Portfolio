@@ -5,11 +5,11 @@ function Skills () {
   return (
     <div className='skills container-fluid'>
       <div className='text-center'>
-        <p className='skillHeading display-4'>Skills</p>
+        <h1 className='skillHeading h1'>Skills</h1>
       </div>
 
       <div className='skillList row'>
-        <div className='frontEnd col-md-4'>
+        <div className='frontEnd g-2 col-md-4'>
           <div className='pb-3'>
             <h2>Front End</h2>
           </div>
@@ -62,7 +62,7 @@ function Skills () {
           </div>
         </div>
 
-        <div className='backEnd col-md-4'>
+        <div className='backEnd g-2 col-md-4'>
           <div className='pb-3'>
             <h2>Back End</h2>
           </div>
@@ -117,7 +117,7 @@ function Skills () {
           </div>
         </div>
 
-        <div className='languages col-md-4'>
+        <div className='languages g-2 col-md-4'>
           <div className='pb-3'>
             <h2>Languages</h2>
           </div>

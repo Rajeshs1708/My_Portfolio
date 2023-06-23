@@ -9,17 +9,19 @@ function ProjectDisplay () {
   const { id } = useParams()
   const project = ProjectList[id]
   return (
-    <div className='project'>
+    <div className='container-fluid project'>
       <h1>{project.name}</h1>
       <img className='img-fluid' src={project.image} alt={project.alt} />
-      <div className='skillsDescription'>
+      <div className='row skillsDescription'>
         <p>
           <b>Skills : </b>
           {project.skills}
         </p>
-        <p>
-          <b>Description : </b> {project.description}
-        </p>
+        <div>
+          <p>
+            <b>Description : </b> {project.description}
+          </p>
+        </div>
       </div>
       <div className='projectLinks'>
         <div className='frontEndGitHubLink'>

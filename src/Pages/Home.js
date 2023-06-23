@@ -5,7 +5,7 @@ function Home () {
   return (
     <>
       <div className='container-fluid'>
-        <div className='about row'>
+        <div className='about row pt-4'>
           <div className='aboutLeft col-md-5'>
             <img
               className='img-fluid mx-auto d-block'

@@ -47,7 +47,15 @@ function Contact () {
   }
   return (
     <section className='p-3' style={{ color: '#3e497a' }}>
-      <h2 className='display-4 text-center'>Contact us</h2>
+      <h2
+        className='h1 text-center'
+        style={{
+          fontFamily: `Cambria, Cochin, Georgia, Times, Times New Roman, serif`,
+          padding: '1.5rem'
+        }}
+      >
+        Contact us
+      </h2>
       <p className='text-center w-responsive mx-auto mb-3'>
         Do you have any questions? Please do not hesitate to contact us
         directly.

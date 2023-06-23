@@ -6,8 +6,9 @@
   padding-bottom: 30px;
 }
 .skillHeading {
-  padding: 10px;
+  padding: 1.5rem;
   margin-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .skillList {
   height: auto;
@@ -15,6 +16,7 @@
 }
 .frontEnd {
   padding-top: 20px;
+  border-radius: 50px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   display: flex;
   flex-direction: column;
@@ -32,8 +34,8 @@
   justify-content: space-around;
 }
 .frontEndBox img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 1px solid lightgray;
   margin-right: 5px;
@@ -58,8 +60,8 @@
   justify-content: space-around;
 }
 .backEndBox img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border: 1px solid lightgray;
   border-radius: 50%;
   padding: 3px;
@@ -70,6 +72,7 @@
   flex-direction: column;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   align-items: center;
+  border-radius: 50px;
 }
 .languages h2 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
@@ -83,8 +86,8 @@
   justify-content: space-around;
 }
 .languagesBox img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border: 1px solid lightgray;
   border-radius: 50%;
   padding: 3px;

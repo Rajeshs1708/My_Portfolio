@@ -6,7 +6,7 @@ import ProjectItem from '../Components/ProjectItem'
 function Projects () {
   return (
     <div className='projects'>
-      <h1>My Personal Projects</h1>
+      <h1 className='h1'>My Personal Projects</h1>
       <div className='credentials text-center'>
         <p>
           <b>Admin Email :</b> admin@gmail.com ||{' '}
