@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Skills.css'
+import skillList from '../Helpers/SkillList'
 
 function Skills () {
   return (
@@ -9,7 +10,35 @@ function Skills () {
       </div>
 
       <div className='skillList row'>
-        <div className='frontEnd g-2 col-md-4'>
+        {
+          skillList && skillList.map((item,id)=>(
+            <div className={`${item.className} g-2 col-md-4`} Key={id} >
+                <div className='pb-3'>
+              <h2>{item.position}</h2>
+            </div>
+            {
+              item.column.map((subItem)=>(
+                <>
+                  <div className={`${subItem.secondClassName}`}>
+                      <div>
+                        <img alt={`${subItem.imgAlt}`} src={`${subItem.imgSrc}`} />
+                      </div>
+                      <div>
+                        <h5>{subItem.skillName}</h5>
+                      </div>
+                      <div>
+                        <progress max={`${subItem.progressMax}`} value={`${subItem.progressVal}`}></progress>
+                      </div>
+                  </div>
+                </>
+              ))
+            }
+          </div>
+          ))
+        }
+     
+
+        {/* <div className='frontEnd g-2 col-md-4'>
           <div className='pb-3'>
             <h2>Front End</h2>
           </div>
@@ -60,9 +89,9 @@ function Skills () {
               <progress max='100' value='80'></progress>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className='backEnd g-2 col-md-4'>
+        {/* <div className='backEnd g-2 col-md-4'>
           <div className='pb-3'>
             <h2>Back End</h2>
           </div>
@@ -115,9 +144,9 @@ function Skills () {
               <progress max='100' value='60'></progress>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className='languages g-2 col-md-4'>
+        {/* <div className='languages g-2 col-md-4'>
           <div className='pb-3'>
             <h2>Languages</h2>
           </div>
@@ -147,7 +176,7 @@ function Skills () {
 
           <div className='languagesBox'>
             <div>
-              <img alt='Javascript' src='/Images/aws.png' />
+              <img alt='aws' src='/Images/aws.png' />
             </div>
             <div>
               <h5>AWS</h5>
@@ -168,7 +197,7 @@ function Skills () {
               <progress max='100' value='70'></progress>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
