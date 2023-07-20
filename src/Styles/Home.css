@@ -21,6 +21,24 @@
   box-shadow: 0 3px 10px rgb(240, 240, 240);
   object-fit: cover;
 }
+.aboutRight h2 {
+  display: inline-block;
+  animation: animate-letter 1s infinite;
+}
+
+@keyframes animate-letter {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
 .aboutRight {
   height: auto;
   display: flex;
