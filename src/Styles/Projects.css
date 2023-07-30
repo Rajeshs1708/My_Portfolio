@@ -20,8 +20,26 @@
   display: flex;
   justify-content: space-evenly;
   color: #3e497a;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
+.category_buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.category_buttons button {
+  color: white;
+  margin: 5px 20px;
+  background-color: #3e497a;
+  width: 100px;
+}
+.category_buttons button:hover {
+  color: white;
+  background-color: #2b3665;
+}
 .projectList {
   width: 90vw;
   padding: 1rem 0rem;
@@ -48,6 +66,12 @@
   .projectList {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+  .category_buttons button {
+    color: white;
+    margin: 5px 9px;
+    background-color: #3e497a;
+    width: 100px;
   }
 }
 
