@@ -1,6 +1,6 @@
 .about {
   max-width: auto;
-  height: auto;
+  /* height: auto; */
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
@@ -13,10 +13,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px;
+  padding: 1.5rem 0rem;
 }
 .aboutLeft img {
-  width: 350px;
+  width: 320px;
   border-radius: 50%;
   box-shadow: 0 3px 10px rgb(240, 240, 240);
   object-fit: cover;
