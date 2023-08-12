@@ -16,7 +16,7 @@
 }
 .frontEnd {
   padding-top: 20px;
-  border-radius: 50px;
+  border-radius: 15px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@
   flex-direction: column;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   align-items: center;
-  border-radius: 50px;
+  border-radius: 15px;
 }
 .languages h2 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
