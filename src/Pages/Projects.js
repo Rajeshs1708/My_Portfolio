@@ -40,7 +40,7 @@ function Projects() {
           </span>
         </p>
       </div>
-      <div className="category_buttons">
+      {/* <div className="category_buttons">
         {newItems.map((item, index) => {
           return (
             <button
@@ -52,9 +52,9 @@ function Projects() {
             </button>
           );
         })}
-      </div>
+      </div> */}
       <div className="projectList">
-        {newProjectList.map((project, idx) => {
+        {ProjectList.map((project, idx) => {
           return <ProjectItem id={idx} allProjectsData={project} />;
         })}
       </div>

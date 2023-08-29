@@ -2,6 +2,7 @@ import urlShortener from "../Assets/urlShortener.png";
 import loginSystem from "../Assets/loginSystem.png";
 import crm from "../Assets/crm.png";
 import chatApp from "../Assets/chatapp.png";
+import toDoList from "../Assets/toDOList.png";
 import amazon from "../Assets/amazon.png";
 import youtube from "../Assets/youtube.png";
 import facebook from "../Assets/facebook.png";
@@ -91,6 +92,17 @@ const ProjectList = [
       "This URL shortener application is a web application built with the MERN (MongoDB, Express, React, and Node.js) stack that is designed to shorten lengthy URLs into shorter, more manageable ones. It allows users to quickly and easily create, share, and track shortened URLs. The application can also track the number of clicks each URL has received. The idea is to minimize the web page address into something that's easier to remember and track.",
 
     category: "MERN",
+  },
+  {
+    name: "TO-DO-LIST",
+    alt: "To-Do List",
+    image: toDoList,
+    skills: "JavaScript, HTML, CSS",
+    gitLink1: "https://github.com/Rajeshs1708/to-do-list-using-JavaScript",
+    netlifyLink: "https://to-do-list-using-js-01.netlify.app/",
+    description:
+      "Our JavaScript To-Do List App with Local Storage is a simple and efficient way to keep track of your tasks and ensure that they persist even when you refresh the page. This user-friendly web application empowers you to manage your to-do list effortlessly, with the ability to mark tasks as completed and delete them as needed.",
+    category: "Javascript",
   },
   {
     name: "Amazon Clone (UI)",
