@@ -22,7 +22,7 @@ function Contact() {
         `${process.env.REACT_APP_BASE_URL}/api/create-client`,
         newClient
       );
-      if (response) {
+      if (response.data.length > 0) {
         const notify = () =>
           toast.success(`Request sent successfully`, { theme: "colored" });
         notify();
@@ -46,7 +46,7 @@ function Contact() {
     });
   };
   return (
-    <section className="p-3" style={{ color: "#3e497a" }}>
+    <section className="p-3" style={{ color: "#3e497a",height:"auto",padding:"0rem 0rem 5rem 0rem" }}>
       <h2
         className="h1 text-center"
         style={{

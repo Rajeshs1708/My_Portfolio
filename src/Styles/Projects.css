@@ -1,6 +1,7 @@
 .projects {
   width: 100%;
   height: auto;
+  padding: 0rem 0rem 8rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
