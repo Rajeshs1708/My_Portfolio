@@ -2,41 +2,39 @@ import React from 'react'
 import '../Styles/Skills.css'
 import skillList from '../Helpers/SkillList'
 
-function Skills () {
+function Skills() {
   return (
     <div className='skills container-fluid'>
       <div className='text-center'>
-        <h1 className='skillHeading h1'>Skills</h1>
+        <h3 className='skillHeading h3'>Skills</h3>
       </div>
 
       <div className='skillList row'>
         {
-          skillList && skillList.map((item,id)=>(
-            <div className={`${item.className} g-2 col-md-4`} Key={id} >
-                <div className='pb-3'>
-              <h2>{item.position}</h2>
-            </div>
-            {
-              item.column.map((subItem)=>(
-                <>
-                  <div className={`${subItem.secondClassName}`}>
-                      <div>
+          skillList && skillList.map((item, idx) => (
+            <div className={`${item.className} g-2 col-md-4`} Key={idx} >
+              <div className='pb-3'>
+                <h5>{item.position}</h5>
+              </div>
+              {
+                item.column.map((subItem) => (
+                  <>
+                    <div className={`${subItem.secondClassName}`}>
+                      <div style={{display:"flex",justifyContent:"flex-start",alignItems:"center",gap:"1rem"}}>
                         <img alt={`${subItem.imgAlt}`} src={`${subItem.imgSrc}`} />
-                      </div>
-                      <div>
                         <h5>{subItem.skillName}</h5>
                       </div>
                       <div>
                         <progress max={`${subItem.progressMax}`} value={`${subItem.progressVal}`}></progress>
                       </div>
-                  </div>
-                </>
-              ))
-            }
-          </div>
+                    </div>
+                  </>
+                ))
+              }
+            </div>
           ))
         }
-     
+
 
         {/* <div className='frontEnd g-2 col-md-4'>
           <div className='pb-3'>

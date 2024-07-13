@@ -13,18 +13,19 @@ const newItems = ["All", ...new Set([...category])];
 function Projects() {
   const [newProjectList, setNewProjectList] = useState(ProjectList);
 
-  const handleClickButton = (item) => {
+  const handleClickButton = async(item) => {
+   
     if (item === "All") {
-      setNewProjectList(ProjectList);
+      await setNewProjectList(ProjectList);
       return;
     }
     let result = ProjectList.filter((ele, i) => ele.category === item);
-    setNewProjectList(result);
+    await setNewProjectList(result);
   };
 
   return (
     <div className="projects">
-      <h1 className="h1">My Personal Projects</h1>
+      <h1 className="h3">My Personal Projects</h1>
       <div className="credentials text-center">
         <p>
           <b>Admin Email :</b> admin@gmail.com ||{" "}
@@ -40,7 +41,7 @@ function Projects() {
           </span>
         </p>
       </div>
-      {/* <div className="category_buttons">
+      <div className="category_buttons">
         {newItems.map((item, index) => {
           return (
             <button
@@ -52,9 +53,9 @@ function Projects() {
             </button>
           );
         })}
-      </div> */}
+      </div>
       <div className="projectList">
-        {ProjectList.map((project, idx) => {
+        {newProjectList.map((project, idx) => {
           return <ProjectItem id={idx} allProjectsData={project} />;
         })}
       </div>

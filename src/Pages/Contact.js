@@ -17,12 +17,14 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newClient = { ...clientDetails };
+    console.log(newClient);
     try {
       const response = await axios.post(
-        `${process.env.REACT_APP_BASE_URL}/api/create-client`,
+        `http://localhost:8080/api/create-client`,
         newClient
       );
-      if (response.data.length > 0) {
+      console.log(response.data);
+      if (response) {
         const notify = () =>
           toast.success(`Request sent successfully`, { theme: "colored" });
         notify();
@@ -35,7 +37,7 @@ function Contact() {
       }
     } catch (err) {
       const notify = () =>
-        toast.error(`Internal server error`, { theme: "colored" });
+        toast.error(`${err.message}`, { theme: "colored" });
       notify();
       console.log("Error: ", err);
     }
@@ -48,7 +50,7 @@ function Contact() {
   return (
     <section className="p-3" style={{ color: "#3e497a",height:"auto",padding:"0rem 0rem 5rem 0rem" }}>
       <h2
-        className="h1 text-center"
+        className="h3 text-center"
         style={{
           fontFamily: `Cambria, Cochin, Georgia, Times, Times New Roman, serif`,
           padding: "1.5rem",
@@ -62,7 +64,7 @@ function Contact() {
       </p>
       <div className="row justify-content-around">
         {/* Input part */}
-        <div className="shadow col-md-5 rounded p-4">
+        <div className="col-md-5 p-4">
           <form
             onSubmit={handleSubmit}
             id="contact-form"
@@ -151,29 +153,29 @@ function Contact() {
         </div>
 
         {/* Address part */}
-        <div className="shadow rounded col-md-5 p-4">
+        <div className="col-md-5 p-4">
           <div className="row">
             <div className="col-12 pt-3 mb-4">
               <div>
-                <p>
+                <p style={{fontSize:"0.9em"}}>
                   <span style={{ paddingRight: "20px" }}>
-                    <HomeIcon />
+                    <HomeIcon style={{fontSize:"1.4em"}} />
                   </span>
-                  TMP Nagar,Padi,Chennai-600050.
+                  Chennai-600050
                 </p>
               </div>
               <div>
-                <p>
+                <p  style={{fontSize:"0.9em"}}>
                   <span style={{ paddingRight: "20px" }}>
-                    <LocalPhoneIcon />
+                    <LocalPhoneIcon style={{fontSize:"1.4em"}} />
                   </span>
                   +91- 8637656612
                 </p>
               </div>
               <div>
-                <p>
+                <p  style={{fontSize:"0.9em"}}>
                   <span style={{ paddingRight: "20px" }}>
-                    <EmailIcon />
+                    <EmailIcon style={{fontSize:"1.4em"}} />
                   </span>
                   rajeshs1097@gmail.com
                 </p>
